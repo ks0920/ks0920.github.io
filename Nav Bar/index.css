@@ -83,7 +83,7 @@
   padding: var(--padding-250xl) 408px var(--padding-250xl) 407px;
   box-sizing: border-box;
   gap: 146px;
-  background-image: url('/Users/ks/Downloads/Logo_single_3.jpg'); /* Replace with the path to your main image */
+  background-image: url('./Ball - V5 1.png'); /* Replace with the path to your main image */
   background-size: cover;
   background-repeat: no-repeat;
   background-position:center bottom;

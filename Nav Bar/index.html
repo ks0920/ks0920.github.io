@@ -7,32 +7,31 @@
     <link rel="stylesheet" href="./index.css" />
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" />
-    <style>
-  
-    </style>
+    <script src="./questionRenderer.js" defer></script>
 </head>
 <body>
     <div class="nav-bar">
         <div class="frame">
             <div class="frame-parent">
-                <button class="love-affection-wrapper" id="Love and affection">
+                <button class="love-affection-wrapper" id="Love and affection" onclick="renderQuestion('LoveandAffection', 1)">
                     <h2 class="love-affection">Love & Affection</h2>
                 </button>
-                <button class="sex-intimacy-wrapper" id="Sex & intimacy">
+                <button class="sex-intimacy-wrapper" id="Sex & intimacy"  onclick="renderQuestion('SexandIntimacy', 1)">
                     <h2 class="love-affection">Sex & Intimacy</h2>
                 </button>
-                <button class="love-affection-wrapper" id="Family and friends ">
+                <button class="love-affection-wrapper" id="Family and friends "  onclick="renderQuestion('FamilyandFriends', 1)">
                     <h2 class="love-affection">Family & Friends</h2>
                 </button>
-                <button class="life-goals-wrapper" id="Life & Goals">
+                <button class="life-goals-wrapper" id="Life & Goals"  onclick="renderQuestion('LifeandGoals', 1)">
                     <h2 class="love-affection">Life & Goals</h2>
                 </button>
             </div>
-            <img class="frame-icon" alt="" src="/Users/ks/Downloads/Aimee Light Blue- V5 1.png" />
+            <img class="frame-icon" alt="" src="./aimee_name_down-removebg-preview.png" />
         
            
         </div>
     </div>
+
 </body>
 </html>
 

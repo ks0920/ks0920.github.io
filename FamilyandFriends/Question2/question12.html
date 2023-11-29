@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./questionglobal.css" />
+    <link rel="stylesheet" href="./question.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="love-affection">
+      <img class="ball-v5-1" alt="" src="./public/ball--v5-1@2x.png" />
+
+      <div class="aimee-circle-color-4-1"></div>
+      <h1 class="would-you-be">
+        Do you have friendships that you find meaningful?
+      </h1>
+      <button class="notificationoptions" id="yes">
+        <div class="content">
+          <div class="notification-content">
+            <div class="title-time">
+              <div class="title">Yes</div>
+            </div>
+          </div>
+        </div>
+      </button>
+      <button class="notificationoptions-wrapper" id="no">
+        <div class="notificationoptions1">
+          <div class="content">
+            <div class="notification-content">
+              <div class="title-time">
+                <div class="title">No</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </button>
+      <button class="love-affection-child"></button>
+    </div>
+
+    <script>
+      var notificationOptions = document.getElementById("yes");
+      if (notificationOptions) {
+        notificationOptions.addEventListener("click", function (e) {
+          // Please sync "Love & Affection" to the project
+        });
+      }
+      
+      var groupButton = document.getElementById("no");
+      if (groupButton) {
+        groupButton.addEventListener("click", function (e) {
+          // Please sync "Love & Affection" to the project
+        });
+      }
+      </script>
+  </body>
+</html>
