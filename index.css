@@ -1,0 +1,98 @@
+.love-affection {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-nunito);
+  color: var(--color-gray);
+  text-align: left;
+}
+
+.love-affection-wrapper,
+.sex-intimacy-wrapper {
+  cursor: pointer;
+  border: 0;
+  background-color: var(--color-whitesmoke);
+  border-radius: var(--br-mid);
+  height: 45px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+
+.love-affection-wrapper {
+  padding: var(--padding-5xs) var(--padding-16xl);
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sex-intimacy-wrapper {
+  padding: var(--padding-5xs) 43px;
+}
+
+.frame-parent,
+.life-goals-wrapper,
+.sex-intimacy-wrapper {
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+}
+
+.life-goals-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) 55px;
+  background-color: var(--color-whitesmoke);
+  border-radius: var(--br-mid);
+  height: 45px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+
+.frame-parent {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 42px;
+  position: undefined;
+  height: 306px;
+  margin-right: 49px;
+}
+
+.frame-icon {
+  position: relative;
+  width: 412px;
+  height: 127px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.frame {
+  position: absolute;
+  top: calc(50% - 724px);
+  left: calc(50% - 614px);
+  width: 1320px; 
+  height: 1390px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-250xl) 408px var(--padding-250xl) 407px;
+  box-sizing: border-box;
+  gap: 146px;
+  background-image: url('/Users/ks/Downloads/Logo_single_3.jpg'); /* Replace with the path to your main image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center bottom;
+}
+
+.nav-bar {
+  position: relative;
+  width: 100%;
+  height: 1080px; /* */
+  overflow: hidden;
+  background-color: transparent; /* Change to the desired background color or remove this line for a transparent background */
+}
